@@ -6,17 +6,9 @@
   padding: 20px;
 }
 
-.inline {
-  display: flex;
-  font-size: 25px;
-}
 
 .inline2 {
   display: flex;
-}
-
-.inline2 .far {
-  margin: 15px 20px 0px 0px;
 }
 
 .far {
@@ -24,21 +16,26 @@
 }
 
 .message {
-padding: 20px;
-border-bottom: 1px, solid, gray;
+  padding: 20px;
+  border-bottom: 1px, solid, gray;
 }
 
 .task {
-border-radius: 5px;
-padding: 20px;
-background: #8080801a;
-border: 1px solid #80808033;
+  border-radius: 5px;
+  padding: 20px;
+  background: #8080801a;
+  border: 1px solid #80808033;
 }
 
 .task h2{
-font-weight: normal;
+  font-weight: normal;
+}
+
+.box{
+  border-top: 1px solid gray;
+  padding: 10px;
 }
 
 h1 {
-font-size: 40px;
+  font-size: 40px;
 }

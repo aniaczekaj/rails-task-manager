@@ -1,6 +1,8 @@
 <div class="main-container">
   <h1><%= @task.title %></h1>
 
+  <%= link_to "UPDATE THIS TASK",  edit_task_path  %>
+
   <div class='task'>
     <h2><%= @task.details %></h2>
   </div>
@@ -8,7 +10,7 @@
   <div class="message">
     <% if @task.completed %>
       <div class="inline2">
-        <i class="far fa-square"></i>
+        <i class="far fa-check-square"></i>
         <p>Task completed</p>
       </div>
     <% else %>
