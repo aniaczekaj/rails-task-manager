@@ -1,12 +1,44 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main-container {
+  margin: 20px;
+  padding: 20px;
+}
+
 .inline {
   display: flex;
   font-size: 25px;
-  margin: 10px;
+}
+
+.inline2 {
+  display: flex;
+}
+
+.inline2 .far {
+  margin: 15px 20px 0px 0px;
 }
 
 .far {
   margin: 5px 20px 10px 20px;
+}
+
+.message {
+padding: 20px;
+border-bottom: 1px, solid, gray;
+}
+
+.task {
+border-radius: 5px;
+padding: 20px;
+background: #8080801a;
+border: 1px solid #80808033;
+}
+
+.task h2{
+font-weight: normal;
+}
+
+h1 {
+font-size: 40px;
 }
