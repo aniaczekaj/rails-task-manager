@@ -11,6 +11,11 @@
       <%= f.text_field :details, class: 'form-control' %>
     </div>
 
+    <div class="inline">
+      <%= f.check_box :completed %>
+      <%= f.label "Mark as completed" %>
+    </div>
+
     <%= f.submit class: 'btn btn-primary' %>
   <% end %>
 

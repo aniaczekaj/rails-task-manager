@@ -1,7 +1,11 @@
 <div class="main-container">
-  <h1><%= @task.title %></h1>
-
-  <%= link_to "UPDATE THIS TASK",  edit_task_path  %>
+  <div class="form-inline spreaded">
+    <h1><%= @task.title %></h1>
+    <div class="btn btn-default">
+      <i class="fas fa-edit"></i>
+      <%= link_to "UPDATE THIS TASK",  edit_task_path  %>
+    </div>
+  </div>
 
   <div class='task'>
     <h2><%= @task.details %></h2>
@@ -9,12 +13,12 @@
 
   <div class="message">
     <% if @task.completed %>
-      <div class="inline2">
+      <div class="form-inline">
         <i class="far fa-check-square"></i>
         <p>Task completed</p>
       </div>
     <% else %>
-      <div class="inline2">
+      <div class="form-inline">
         <i class="far fa-square"></i>
         <p> This task is not completed yet </p>
       </div>

@@ -6,8 +6,7 @@
   padding: 20px;
 }
 
-
-.inline2 {
+.inline {
   display: flex;
 }
 
@@ -16,8 +15,8 @@
 }
 
 .message {
-  padding: 20px;
-  border-bottom: 1px, solid, gray;
+  padding: 20px 0px;
+  margin: 10px 0px;
 }
 
 .task {
@@ -38,4 +37,12 @@
 
 h1 {
   font-size: 40px;
+}
+
+.spreaded {
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 10px 0px;
 }
